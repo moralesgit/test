@@ -1,0 +1,11 @@
+{
+    "name": "Aquatis",
+    "version_number": "1.1.1",
+    "website_url": "https://github.com/sfDesat/Aquatis",
+    "description": "A new moon. [1.0 Release]",
+    "dependencies": [
+	"HolographicWings-LethalExpansion-1.3.25",
+	"BepInEx-BepInExPack-5.4.2100",
+	"sfDesat-ExpansionAssets-1.0.1"
+    ]
+}

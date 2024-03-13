@@ -1,0 +1,11 @@
+{
+    "name": "AdvancedCompany",
+	"author_name": "PotatoePet",
+    "version_number": "1.1.10",
+	"website_url": "https://www.potatoepet.de",
+    "description": "The most advanced and by far most stable lobby mod with perfect additions for your LethalCompany adventure. Including nearly perfectly synched late joining into lobbies. Includes cosmetics compability. Fully configurable in-game with preset support.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+		"Rune580-LethalCompany_InputUtils-0.5.5"
+    ]
+}

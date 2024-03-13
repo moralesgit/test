@@ -1,0 +1,11 @@
+{
+  "name": "CompanySuits",
+  "version_number": "1.0.3",
+  "website_url": "https://github.com/thunderstore-io",
+  "description": "Company Suits is a collection of the most high-quality funny/meme suits. Created for the CompanyEssentials modpack.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100",
+    "x753-More_Suits-1.4.1",
+    "Verity-TooManySuits-1.0.5"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "LETHALRESONANCE",
+    "version_number": "4.2.3",
+    "website_url": "",
+    "description": "NEW API, STREAM FRIENDLY. Immerse in 470+ enhanced audio tweaks and custom sounds for a scarier, deeper experience. Feel sound roll off objects, blending intense bass and subtle reverb for a captivating, immersive experience.",
+    "dependencies": [
+        "Hardy-LCMaxSoundsFix-1.1.0",
+        "loaforc-loaforcsSoundAPI-0.1.3"
+    ]
+}

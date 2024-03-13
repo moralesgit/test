@@ -1,0 +1,10 @@
+{
+    "name": "GraphicsAPI",
+    "author": "Chaos",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "Made this tool for Diversity.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

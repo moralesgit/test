@@ -1,0 +1,9 @@
+{
+    "name": "FixRPCLag",
+    "version_number": "1.0.1",
+    "website_url": "https://github.com/legoandmars/FixRPCLag",
+    "description": "Fixes RPC lag. This should fix the several second slowdown that occurs when some mods throw exceptions in the console.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

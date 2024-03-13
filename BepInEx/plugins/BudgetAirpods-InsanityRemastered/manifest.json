@@ -1,0 +1,9 @@
+{
+  "name": "InsanityRemastered",
+  "version_number": "1.1.2",
+  "website_url": "https://github.com/BudgetAirpods/InsanityRemastered/tree/V1.1.0",
+  "description": "Adds new features and mechanics to the insanity mechanic of Lethal Company.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}

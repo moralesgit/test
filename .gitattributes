@@ -1,0 +1,6 @@
+Lethal[[:space:]]Company_Data/sharedassets1.assets.resS filter=lfs diff=lfs merge=lfs -text
+Lethal[[:space:]]Company_Data/sharedassets3.assets.resS filter=lfs diff=lfs merge=lfs -text
+BepInEx/plugins/Zingar-Atlas_Abyss/atlasabyssscene.lethalbundle filter=lfs diff=lfs merge=lfs -text
+BepInEx/plugins/Tolian-Celestria/celestriascene.lethalbundle filter=lfs diff=lfs merge=lfs -text
+BepInEx/plugins/Ceelery-Kast/kast.lem filter=lfs diff=lfs merge=lfs -text
+BepInEx/plugins/Piggy-LC_Office/lcoffice filter=lfs diff=lfs merge=lfs -text

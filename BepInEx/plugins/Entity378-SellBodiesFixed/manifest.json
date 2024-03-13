@@ -1,0 +1,11 @@
+{
+  "name": "SellBodiesFixed",
+  "version_number": "1.4.0",
+  "website_url": "https://github.com/Entity378/LC-SellBodiesFixed",
+  "description": "Sell the bodies of dead enemies. This is an updated version of the SellBodies mod",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100",
+    "Evaisa-LethalLib-0.10.0",
+    "Evaisa-HookGenPatcher-0.0.5"
+  ]
+}

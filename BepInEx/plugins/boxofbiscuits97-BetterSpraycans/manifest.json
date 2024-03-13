@@ -1,0 +1,10 @@
+{
+    "name": "BetterSpraycans",
+    "version_number": "1.0.1",
+    "website_url": "",
+    "description": "Makes Spraycans more customizable and easy to use",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "Rune580-LethalCompany_InputUtils-0.3.0"
+    ]
+}

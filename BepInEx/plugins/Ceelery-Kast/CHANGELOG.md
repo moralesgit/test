@@ -1,0 +1,26 @@
+- 1.0.3
+  - Enabled mansion as a possible interior
+  - Tweaked scrap spawns to favor more valuable scrap
+  - Tweaked enemy spawns to favor more dangerous enemies
+  - Increased spawnchance of eyeless-dogs
+  - Decreased spawnchance of forest giants
+- 1.0.2
+  - Fixed rain/fog infiltrating the facility
+  - Added video to the monitoring screen
+  - Added far terrain
+  - Disabled mansion from being a possible interior (will be added back once fire exit is fixed)
+  - Adjusted shaders for some assets to better fit with vanilla assets
+  - Reduced initial eclipse spawns from 2 to 1
+  - Removed beehives from daytime enemies list
+  - Adjusted Icarus :)
+- 1.0.1
+  - Reduced outdoor spawncap from 10 to 8
+  - Tweaked spawnrates throughout the day
+  - Repositioned some map assets
+  - Increased moon price to 1000, the initial intended amount
+  - Increased scan range for entrance scan node
+  - Added sound effects to entrance doors
+- 1.0.0
+  - Initial Release
+  - Added new moon "Kast"
+

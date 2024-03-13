@@ -1,0 +1,465 @@
+- manifestVersion: 1
+  name: BepInEx-BepInExPack
+  authorName: BepInEx
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/BepInEx/BepInExPack/
+  displayName: BepInExPack
+  description: BepInEx pack for Mono Unity games. Preconfigured and ready to use.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 5
+    minor: 4
+    patch: 2100
+  enabled: true
+  icon: C:/Users/josel/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/BepInEx-BepInExPack/5.4.2100/icon.png
+- manifestVersion: 1
+  name: AudioKnight-StarlancerAIFix
+  authorName: AudioKnight
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/AudioKnight/StarlancerAIFix/
+  displayName: StarlancerAIFix
+  description: Automatically assigns interior/exterior AI for enemies based on
+    their spawn location. Also fixes a null reference exception regarding
+    EnableEnemyMesh(). Part of my Starlancer Series!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 3
+    patch: 0
+  enabled: true
+  icon: C:/Users/josel/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/AudioKnight-StarlancerAIFix/3.3.0/icon.png
+- manifestVersion: 1
+  name: Hardy-LCMaxSoundsFix
+  authorName: Hardy
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Hardy/LCMaxSoundsFix/
+  displayName: LCMaxSoundsFix
+  description: Simple mod that increase max number of simultaneous playing sounds,
+    hopefully fixing missing footsteps and other missing sound problems.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:/Users/josel/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Hardy-LCMaxSoundsFix/1.1.0/icon.png
+- manifestVersion: 1
+  name: jockie-LethalExpansionCore
+  authorName: jockie
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/jockie/LethalExpansionCore/
+  displayName: LethalExpansionCore
+  description: De-bloated LethalExpansion fork with only the LethalSDK module support
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 15
+  enabled: true
+  icon: C:/Users/josel/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/jockie-LethalExpansionCore/1.3.15/icon.png
+- manifestVersion: 1
+  name: Magic_Wesley-Wesleys_Moons
+  authorName: Magic_Wesley
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Magic_Wesley/Wesleys_Moons/
+  displayName: Wesleys_Moons
+  description: All of my moons in one bundle.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - jockie-LethalExpansionCore-1.3.15
+    - Hardy-LCMaxSoundsFix-1.0.0
+    - AudioKnight-StarlancerAIFix-2.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 0
+    patch: 8
+  enabled: true
+  icon: C:/Users/josel/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Magic_Wesley-Wesleys_Moons/3.0.8/icon.png
+- manifestVersion: 1
+  name: Evaisa-HookGenPatcher
+  authorName: Evaisa
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Evaisa/HookGenPatcher/
+  displayName: HookGenPatcher
+  description: Generates MonoMod.RuntimeDetour.HookGen's MMHOOK file during the
+    BepInEx preloader phase.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 5
+  enabled: true
+  icon: C:/Users/josel/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Evaisa-HookGenPatcher/0.0.5/icon.png
+- manifestVersion: 1
+  name: Evaisa-LethalLib
+  authorName: Evaisa
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Evaisa/LethalLib/
+  displayName: LethalLib
+  description: Personal modding tools for Lethal Company
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-HookGenPatcher-0.0.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 14
+    patch: 2
+  enabled: true
+  icon: C:/Users/josel/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Evaisa-LethalLib/0.14.2/icon.png
+- manifestVersion: 1
+  name: Entity378-SellBodiesFixed
+  authorName: Entity378
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Entity378/SellBodiesFixed/
+  displayName: SellBodiesFixed
+  description: Sell the bodies of dead enemies. This is an updated version of the
+    SellBodies mod
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-HookGenPatcher-0.0.5
+    - Evaisa-LethalLib-0.10.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 4
+    patch: 0
+  enabled: true
+  icon: C:/Users/josel/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Entity378-SellBodiesFixed/1.4.0/icon.png
+- manifestVersion: 1
+  name: Rune580-LethalCompany_InputUtils
+  authorName: Rune580
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Rune580/LethalCompany_InputUtils/
+  displayName: LethalCompany_InputUtils
+  description: API/Library for creating Unity InputActions with in-game re-binding
+    support. Provides an alternative UI that allows for supporting mods to have
+    in-game re-bindable keybinds.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 6
+    patch: 3
+  enabled: true
+  icon: C:/Users/josel/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Rune580-LethalCompany_InputUtils/0.6.3/icon.png
+- manifestVersion: 1
+  name: boxofbiscuits97-BetterSpraycans
+  authorName: boxofbiscuits97
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/boxofbiscuits97/BetterSpraycans/
+  displayName: BetterSpraycans
+  description: Makes Spraycans more customizable and easy to use
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Rune580-LethalCompany_InputUtils-0.3.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/josel/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/boxofbiscuits97-BetterSpraycans/1.0.1/icon.png
+- manifestVersion: 1
+  name: BudgetAirpods-InsanityRemastered
+  authorName: BudgetAirpods
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/BudgetAirpods/InsanityRemastered/
+  displayName: InsanityRemastered
+  description: Adds new features and mechanics to the insanity mechanic of Lethal Company.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 2
+  enabled: true
+  icon: C:/Users/josel/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/BudgetAirpods-InsanityRemastered/1.1.2/icon.png
+- manifestVersion: 1
+  name: MegaPiggy-InsanityMeter
+  authorName: MegaPiggy
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/MegaPiggy/InsanityMeter/
+  displayName: InsanityMeter
+  description: Adds a violet colored insanity bar right above the clock.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/josel/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/MegaPiggy-InsanityMeter/1.0.0/icon.png
+- manifestVersion: 1
+  name: Monkeytype-HideChat
+  authorName: Monkeytype
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Monkeytype/HideChat/
+  displayName: HideChat
+  description: Fully fade out the text chat when not in use
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/josel/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Monkeytype-HideChat/1.0.0/icon.png
+- manifestVersion: 1
+  name: jaspercreations-Scopophobia
+  authorName: jaspercreations
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/jaspercreations/Scopophobia/
+  displayName: Scopophobia
+  description: "Adds the Shy Guy (SCP-096) to Lethal Company. Fully custom
+    animations and behavior. Model from SCP: Containment Breach."
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-LethalLib-0.14.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: C:/Users/josel/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/jaspercreations-Scopophobia/1.1.1/icon.png
+- manifestVersion: 1
+  name: Ccode_lang-SirenHead
+  authorName: Ccode_lang
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Ccode_lang/SirenHead/
+  displayName: SirenHead
+  description: Add the siren head to Lethal Company.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-LethalLib-0.14.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 4
+  enabled: true
+  icon: C:/Users/josel/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Ccode_lang-SirenHead/1.1.4/icon.png
+- manifestVersion: 1
+  name: darmuh-ghostCodes
+  authorName: darmuh
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/darmuh/ghostCodes/
+  displayName: ghostCodes
+  description: There's a ghost in the terminal and it's sending random broadcast
+    codes to mess with the facility!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 5
+    patch: 1
+  enabled: true
+  icon: C:/Users/josel/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/darmuh-ghostCodes/1.5.1/icon.png
+- manifestVersion: 1
+  name: QuokkaCrew-MoreMonsters
+  authorName: QuokkaCrew
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/QuokkaCrew/MoreMonsters/
+  displayName: MoreMonsters
+  description: Allows you to customize how many of each monster spawns, and how
+    frequently a monster will spawn. Press Insert to open the menu. Ideal for
+    when there are more than 4 players (via lobby increasing mods like
+    MoreCompany). For BepInEx.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 1
+  enabled: true
+  icon: C:/Users/josel/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/QuokkaCrew-MoreMonsters/1.2.1/icon.png
+- manifestVersion: 1
+  name: Ozone-Runtime_Netcode_Patcher
+  authorName: Ozone
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Ozone/Runtime_Netcode_Patcher/
+  displayName: Runtime_Netcode_Patcher
+  description: Patches Netcode RPC methods during runtime utilizing Harmony
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 2
+    patch: 5
+  enabled: true
+  icon: C:/Users/josel/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Ozone-Runtime_Netcode_Patcher/0.2.5/icon.png
+- manifestVersion: 1
+  name: readthisifbad-SnatchinBracken
+  authorName: readthisifbad
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/readthisifbad/SnatchinBracken/
+  displayName: SnatchinBracken
+  description: SnatchinBracken modifies the behavior of Bracken enemies. Instead
+    of instantly killing players on contact, Brackens now capture and drag
+    players to the infamous Bracken Room.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Ozone-Runtime_Netcode_Patcher-0.2.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 4
+    patch: 5
+  enabled: true
+  icon: C:/Users/josel/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/readthisifbad-SnatchinBracken/1.4.5/icon.png
+- manifestVersion: 1
+  name: Evaisa-LethalThings
+  authorName: Evaisa
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Evaisa/LethalThings/
+  displayName: LethalThings
+  description: Adds 11 scrap, 6 store items, 1 enemy, 4 decor, 1 map hazard, and 1
+    game mechanic.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-HookGenPatcher-0.0.5
+    - Evaisa-LethalLib-0.11.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 9
+    patch: 4
+  enabled: true
+  icon: C:/Users/josel/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Evaisa-LethalThings/0.9.4/icon.png

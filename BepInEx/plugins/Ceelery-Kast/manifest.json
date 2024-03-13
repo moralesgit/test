@@ -1,0 +1,10 @@
+{
+    "name": "Kast",
+    "version_number": "1.0.3",
+    "website_url": "https://github.com/ceelery/Kast",
+    "description": "Adds a new, late-game moon. Proceed with caution.",
+    "dependencies": [
+	"HolographicWings-LethalExpansion-1.3.11"
+	, "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

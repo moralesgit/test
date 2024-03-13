@@ -1,0 +1,9 @@
+{
+    "name": "ExpansionAssets",
+    "version_number": "1.1.0",
+    "website_url": "",
+    "description": "This mod does not work on it's own",
+    "dependencies": [
+	"BepInEx-BepInExPack-5.4.2100"
+    ]
+}

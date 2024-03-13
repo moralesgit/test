@@ -1,0 +1,9 @@
+﻿{
+  "name": "RollingGiant",
+  "version_number": "2.5.2",
+  "website_url": "https://github.com/nomnomab/lc-rolling-giant",
+  "description": "Adds the Rolling Giant as a new enemy type. Sounds are included.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}
